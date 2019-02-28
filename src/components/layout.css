@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif');
-
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 html {
   font-family: sans-serif;
@@ -623,8 +623,9 @@ pre tt:after {
     font-size: 100%;
   }
 }
-header h1 {color: #000;font-family: 'Bree Serif', serif;letter-spacing: 2px; border:2px solid #000;background-color: #fff;padding: 10px; box-shadow: -7px -7px 0 0 #000;transition: all ease 0.3s}
+header h1 {color: #000;font-family: 'Bree Serif', serif;letter-spacing: 2px; border:2px solid #000;background-color: #fff;padding: 10px 10px 20px 10px; box-shadow: -7px -7px 0 0 #000;transition: all ease 0.3s;position: relative;}
 header h1:hover {box-shadow: 5px 5px 0 0 #000;}
+header h1:before {    content: 'Front End Developer'; position: absolute; font-size: 18px; padding: 10px 15px; bottom: -8px; left: 150px; margin-left: -117px; border-radius: 30px; color: #000;font-family: 'Josefin Sans', sans-serif;}
 ul.social {list-style-type:none; margin:10px 0 60px 0; padding:0; width: 100%; display: inline-block; text-align: center; }
 .social li {background-color: #fff; padding: 6px 10px; display: inline-block; border: 2px solid #000; margin: 0 10px; box-shadow: -8px -8px 0 0 #000;transition: all ease 0.3s;}
 .social li:hover {box-shadow: 8px 8px 0 0 #000;}
