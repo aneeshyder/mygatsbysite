@@ -1,18 +1,16 @@
 import React from "react"
 import { Link } from "gatsby"
-
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import image from "../images/1648573185082.jpg"
+import "../styles/index.css"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Frontend Dev" keywords={[`gatsby`, `application`, `react`]} />
    
-    <div style={{ maxWidth: `300px`, margin: `80px auto`,    borderRadius: '50%',
-    border: '6px solid #0c2d65',
-    overflow: 'hidden', }}>
-      <Image />
+    <div className="image-wrap">
+      <img src={image} alt="Logo" />
     </div>
     <ul className="social">
      <li><a href="https://twitter.com/aneeshyder1" target="_blank" rel="noopener noreferrer">Twitter</a></li>
