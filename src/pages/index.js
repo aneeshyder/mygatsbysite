@@ -7,7 +7,7 @@ import "../styles/index.css"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Frontend Dev" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Sr. Frontend Dev" keywords={[`gatsby`, `application`, `react`]} />
    
     <div className="image-wrap">
       <img src={image} alt="Logo" />
