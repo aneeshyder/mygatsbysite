@@ -623,13 +623,13 @@ pre tt:after {
     font-size: 100%;
   }
 }
-header h1 {color: #000;font-family: 'Bree Serif', serif;letter-spacing: 2px;border: 2px solid #000;background-color: #fff;padding: 10px;box-shadow: -7px -7px 0 0 #000;transition: all ease 0.3s;position: relative;font-size: 30px;}
+header h1 {color: #000;font-family: 'Bree Serif', serif;letter-spacing: 2px;border: 2px solid #000;background-color: #fff;padding: 10px;box-shadow: -7px -7px 0 0 #000;transition: all ease 0.3s;position: relative;font-size: 40px;}
 header h1:hover {box-shadow: 5px 5px 0 0 #000;}
-header h1 span {display: block; font-size: 14px; padding: 3px;border-radius: 30px; color: #000;font-family: 'Josefin Sans', sans-serif;}
+header h1 span {display: block; font-size: 20px; padding: 3px;border-radius: 30px; color: #000;font-family: 'Josefin Sans', sans-serif;}
 ul.social {list-style-type:none; margin:10px 0 60px 0; padding:0; width: 100%; display: inline-block; text-align: center; }
 .social li {background-color: #fff;  display: inline-block; border: 2px solid #000; margin: 0 10px; box-shadow: -8px -8px 0 0 #000;transition: all ease 0.3s;}
 .social li:hover {box-shadow: 8px 8px 0 0 #000;}
-.social li a {display: inline-block;width: 100%; padding: 6px 10px;color:#000;text-decoration: none;font-family: 'Bree Serif', serif;font-size: 25px;position: relative;}
+.social li a {display: inline-block;width: 100%; padding: 6px 10px;color:#000;text-decoration: none;font-family: 'Bree Serif', serif;font-size: 35px;position: relative;}
 
 /*.social li a:hover {color:#bd7676;}*/
  .res {text-align: center;padding: 65px 0 0 0}
@@ -639,6 +639,8 @@ ul.social {list-style-type:none; margin:10px 0 60px 0; padding:0; width: 100%; d
   .social li {width: 85%;margin-bottom: 25px}
   .social li a {font-size: 25px;padding: 9px 0; }
   main > div:first-child {margin: 50px auto 14px !important;}
+  header h1 { font-size: 30px;}
+  header h1 span { font-size: 15px;}
 }
 body {background-size: 160px; background-image: url("../images/pattern.png"); }
 footer p {display: inline-block; border: 1px solid #000; background-color: #fff; padding: 5px 10px; border-radius: 25px; box-shadow: 3px 5px 0 0;    font-family: 'Bree Serif', serif;}
